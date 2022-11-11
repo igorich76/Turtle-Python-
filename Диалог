@@ -1,0 +1,18 @@
+from turtle import *
+from shapes import *
+t = Turtle()
+t.shape("turtle")
+##################
+t.hideturtle()
+t.penup()
+t.goto(-100,0)
+t.write('Привет, как тебя зовут?')
+t.hideturtle()
+name = input()
+t.penup()
+t.goto(-100,-50)
+t.write('Сколько тебе, '+name+' лет?')
+t.penup()
+t.goto(-100,-100)
+age = input()
+t.write(age+'? Ого, целых '+age+' лет! Да ты уже совсем взрослый!')
