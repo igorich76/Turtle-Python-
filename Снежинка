@@ -1,0 +1,21 @@
+from turtle import *
+from shapes import *
+t = Turtle()
+t.shape("turtle")
+##################
+t.fd(200)
+t.bk(400)
+t.fd(200)
+t.lt(90)
+t.fd(200)
+t.bk(400)
+t.fd(200)
+t.rt(45)
+t.fd(283)
+t.bk(566)
+t.fd(283)
+t.lt(90)
+t.fd(283)
+t.bk(566)
+t.fd(283)
+t.hideturtle()
