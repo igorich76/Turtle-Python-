@@ -1,5 +1,4 @@
 from turtle import *
-from shapes import *
 t = Turtle()
 t.shape("turtle")
 ##################
